@@ -12,9 +12,9 @@ meteor add liberation:meteor-onbeforelogout
 # Basic examples
 
 ```js
-Meteor.onBeforeLogout(() => {
+Meteor.onBeforeLogout = () => {
   UIBlock.block('Please wait...')
-})
+}
 
 Meteor.logout(() => {
   UIBlock.unblock()
