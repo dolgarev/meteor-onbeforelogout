@@ -2,7 +2,7 @@ Package.describe({
   name: 'liberation:meteor-onbeforelogout',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: 'This package is just wrapper around a method Meteor.logout. It realizes callback function onBeforeLogout.',
+  summary: 'This package realizes callback function onBeforeLogout.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/dolgarev/meteor-onbeforelogout',
   // By default, Meteor will default to using README.md for documentation.
